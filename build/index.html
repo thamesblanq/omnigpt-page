@@ -12,7 +12,10 @@
 <body class="bg-[#111826] w-full">
   <header>
     <section class="max-w-5xl text-white flex justify-between items-center p-6 mx-auto">
-      <h3 class="text-2xl relative">omnigpgt<span class="text-[#1FC77E] absolute -top-0">↗️</span></h3>
+      <div class="flex justify-center items-center relative">
+        <h3 class="text-xl text-white relative py-4">omnigpgt</h3>
+        <div><img src="./img/Vector (7).png" alt="arrow" class="absolute -right-4 top-[42%]"></div>
+      </div>
       <div>
           <button
             id="hamburger-button"
@@ -30,7 +33,7 @@
   
   <section
         id="mobile-menu"
-        class="justify-content-center absolute top-0 hidden w-full origin-top animate-open-menu flex-col bg-black text-5xl z-50"
+        class="justify-content-center absolute top-0 hidden w-full origin-top animate-open-menu flex-col bg-[#111826] text-5xl z-50"
       >
         <button class="self-end px-6 text-8xl text-white">&times;</button>
         <nav
@@ -55,14 +58,15 @@
   <main class="mx-auto h-auto pb-12">
     <section class="w-full h-auto mb-12 flex flex-col items-center justify-center">
       <section id="hero" class="flex flex-col-reverse max-w-5xl sm:flex-row items-center gap-4 mx-auto">
-        <article class="md:w-1/2 flex flex-col px-8">
-          <h1 class="text-3xl md:text-5xl font-sans font-semibold text-white mb-8">Seamless Communication with OmniGPT</h1>
-          <p class="md:text-2xl font-bold text-white">Powered by Chat GPT-4</p>
-          <p class="text-xs md:text-xl text-white mb-8">Experience the power of AI language models with OmniGPT.
+        <article class="md:w-1/2 flex flex-col px-8 relative">
+          <h1 class="text-5xl md:text-6xl font-sans font-semibold text-white mb-8">Seamless Communication with OmniGPT</h1>
+          <p class="md:text-2xl text-xl font-bold text-white">Powered by Chat GPT-4</p>
+          <p class="text-xl text-white mb-8">Experience the power of AI language models with OmniGPT.
                               Our chat platform provides seamless communication
                               across multiple channels.
           </p>
-          <p class="text-xs md:text-xl font-bold text-white mb-2">Try for free! 15-day trial, no credit card required.</p>
+          <img src="./img/Vector (8).png" alt="circle" class="absolute top-10 md:top-1/4 md:w-4/5 w-3/4 -z-50">
+          <p class="text-xl font-bold text-white mb-2">Try for free! 15-day trial, no credit card required.</p>
           <button class="p-4 text-white rounded-md bg-[#1FC77E] md:w-1/2 font-medium">Start your free trial</button>
         </article>
   
@@ -74,13 +78,44 @@
     
     <section class="hidden w-full h-auto mb-12 md:block ">
       <section class="hidden md:flex items-center justify-center bg-black max-w-5xl h-screen p-8 relative overflow-hidden mx-auto">
-        <img src="./img/iphone.png" alt="iphone" class="absolute top-1/4 mx-auto">
+        <img src="./img/apple-iphone-14-pro-max-2022-medium 2.png" alt="iphone" class="mx-auto">
+        <div class="md:flex items-center justify-between w-80 rounded-t-3xl p-2 bg-white absolute h-12 top-[18%]">
+          <div class="flex gap-3">
+            <img src="./img/Frame 427320342.png" alt="frame">
+            <img src="./img/Frame 427320341.png" alt="frame">
+          </div>
+          <img src="./img/Frame 427320343.png" alt="frame">
+        </div>
+        <div class="bg-white absolute flex p-4 w-5/6 items-center gap-4 bottom-10">
+          <div class="flex gap-4 items-center">
+            <div><img src="./img/Vector (2).png" alt="vector" class=""></div>
+            <div><img src="./img/Vector (3).png" alt="vector" class=""></div>
+          </div>
+          <p class="bg-gray-200 p-4 font-thin grow text-gray-500 rounded-md">!Can you help me find a restaurant nearby?</p>
+          <div><img src="./img/Outline - Application.png" alt="send"></div>
+        </div>
+        
+        <div>
+        </div>
       </section>
     </section>
     
     <section class="w-full h-auto mb-12 flex flex-col items-center justify-center">
       <section class="flex flex-col-reverse md:flex-row items-center h-auto max-w-5xl p-8 overflow-hidden">
-        <div class="flex items-center justify-center mt-4 md:justify-start"><img src="./img/iphone.png" alt="iphone" class="w-1/2 "></div>
+        <div class="md:flex items-center justify-center mt-4 md:justify-start mr-12 w-1/2">
+          <div class="relative">
+            <img src="./img/Rectangle 13053.png" alt="picture" class="absolute top-2 left-3 w-11/12 -z-50">
+
+            <img src="./img/apple-iphone-14-pro-max-2022-medium 1.png" alt="iphone" class="">
+
+            <img src="./img/Facebook_Messenger_logo_2020 1.png" alt="icon" class="absolute -left-8 top-1/4 w-1/2">
+
+            <div class="w-auto h-auto rounded-full bg-white p-4  absolute -right-10 bottom-1/4">
+              <img src="./img/WhatsApp 1.png" alt="icon" class="">
+            </div>
+          </div>
+         
+        </div>
   
         <div>
           <h1 class=" text-3xl md:text-4xl text-white font-sans font-semibold mb-4">The <span class="text-[#1FC77E]">All-In-One</span> Solution for Conversational AI.</h1>
@@ -105,7 +140,7 @@
     <section class="hidden w-full h-auto mb-12 md:flex flex-col items-center justify-center">
       <section class="hidden md:block max-w-5xl p-8 h-auto overflow-hidden">
         <h1 class="text-white text-center text-5xl font-semibold"><span class="text-[#1FC77E]">Accessible</span> pricing for all users</h1>
-        <div class="flex items-center justify-center mt-4"><img src="./img/iphone-x.png" alt="iphone-x" class="w-1/2 flex items-center"></div>
+        <div class="flex items-center justify-center mt-4"><img src="./img/Screen Shot 2566-04-10 at 17.16 1.png" alt="iphone-x" class="w-1/2 flex items-center"></div>
         
       </section>
     </section>
@@ -116,41 +151,79 @@
           <h1 class="text-3xl md:text-4xl font-sans font-semibold text-white text-left mb-8"><span class="text-[#1FC77E]">Integrations</span> to Boost Your Workflow</h1>
           <div class="grid grid-cols-3 gap-8">
             <div class="bg-white text-black h-auto w-full p-8 rounded-md">
-              <img src="./img/twitter.png" alt="image-icon" class="w-1/4">
+              <div class="flex items-center">
+                <img src="./img/twitter.png" alt="image-icon" class="w-1/4">
+                <p class="font-semibold">Twitter</p>
+              </div>
+             
               <p class="font-normal text-left">Connect your Twitter account to easily send and receive messages directly with OmniGPT.</p>
             </div>
             <div class="bg-white text-black h-auto w-full p-8 rounded-md">
-              <img src="./img/twitter.png" alt="image-icon" class="w-1/4">
+              <div class="flex items-center">
+                <img src="./img/WhatsApp 1.png" alt="image-icon" class="w-1/4">
+                <p class="font-semibold">WhatsApp</p>
+              </div>
+             
               <p class="font-normal text-left">Connect your Twitter account to easily send and receive messages directly with OmniGPT.</p>
             </div>
             <div class="bg-white text-black h-auto w-full p-8 rounded-md">
-              <img src="./img/twitter.png" alt="image-icon" class="w-1/4">
+              <div class="flex items-center">
+                <img src="./img/LINE_logo 1.png" alt="image-icon" class="w-1/4">
+                <p class="font-semibold">Line</p>
+              </div>
+             
               <p class="font-normal text-left">Connect your Twitter account to easily send and receive messages directly with OmniGPT.</p>
             </div>
             <div class="bg-white text-black h-auto w-full p-8 rounded-md">
-              <img src="./img/twitter.png" alt="image-icon" class="w-1/4">
+              <div class="flex items-center">
+                <img src="./img/Vector (4).png" alt="image-icon" class="w-1/4">
+                <p class="font-semibold">Notion</p>
+              </div>
+             
               <p class="font-normal text-left">Connect your Twitter account to easily send and receive messages directly with OmniGPT.</p>
             </div>
             <div class="bg-white text-black h-auto w-full p-8 rounded-md">
-              <img src="./img/twitter.png" alt="image-icon" class="w-1/4">
+              <div class="flex items-center">
+                <img src="./img/chrome-icon.png" alt="image-icon" class="w-1/4">
+                <p class="font-semibold">Chrome</p>
+              </div>
+             
               <p class="font-normal text-left">Connect your Twitter account to easily send and receive messages directly with OmniGPT.</p>
             </div>
             <div class="bg-white text-black h-auto w-full p-8 rounded-md">
-              <img src="./img/twitter.png" alt="image-icon" class="w-1/4">
+              <div class="flex items-center">
+                <img src="./img/google.png" alt="image-icon" class="w-1/4">
+                <p class="font-semibold">Google</p>
+              </div>
+             
               <p class="font-normal text-left">Connect your Twitter account to easily send and receive messages directly with OmniGPT.</p>
             </div>
             <div class="bg-white text-black h-auto w-full p-8 rounded-md">
-              <img src="./img/twitter.png" alt="image-icon" class="w-1/4">
+              <div class="flex items-center">
+                <img src="./img/twitter.png" alt="image-icon" class="w-1/4">
+                <p class="font-semibold">Twitter</p>
+              </div>
+             
               <p class="font-normal text-left">Connect your Twitter account to easily send and receive messages directly with OmniGPT.</p>
             </div>
             <div class="bg-white text-black h-auto w-full p-8 rounded-md">
-              <img src="./img/twitter.png" alt="image-icon" class="w-1/4">
+              <div class="flex items-center">
+                <img src="./img/twitter.png" alt="image-icon" class="w-1/4">
+                <p class="font-semibold">Twitter</p>
+              </div>
+             
               <p class="font-normal text-left">Connect your Twitter account to easily send and receive messages directly with OmniGPT.</p>
             </div>
             <div class="bg-white text-black h-auto w-full p-8 rounded-md">
-              <img src="./img/twitter.png" alt="image-icon" class="w-1/4">
+              <div class="flex items-center">
+                <img src="./img/twitter.png" alt="image-icon" class="w-1/4">
+                <p class="font-semibold">Twitter</p>
+              </div>
+             
               <p class="font-normal text-left">Connect your Twitter account to easily send and receive messages directly with OmniGPT.</p>
             </div>
+
+            
           </div>
         </article>
   
@@ -158,9 +231,11 @@
     </section>
    
     <section class="w-full h-auto mb-12 flex flex-col items-center justify-center">
-      <section class="max-w-5xl p-8 flex flex-col items-center">
-      <h1 class="text-white text-3xl md:text-4xl font-sans font-semibold">See What People Are <span class="text-[#1FC77E]">Saying About Us</span></h1>
-      <article class="flex flex-col md:flex-row items-center justify-center gap-4">
+      <section class="max-w-5xl p-8 flex flex-col relative">
+      <h1 class="text-white text-5xl font-sans font-semibold md:w-1/2 w-4/5 text-left">See What People Are <span class="text-[#1FC77E]">Saying About Us</span></h1>
+      <img src="img/Vector (5).png" alt="star 1" class="absolute top-52 md:top-32 right-10">
+      <img src="img/Vector (6).png" alt="star 1" class="absolute top-32 md:top-16 right-36">
+      <article class="flex flex-col md:flex-row items-center justify-center gap-4 mt-20">
 
         <div class="flex justify-start flex-col rounded-md p-4 bg-white md:bg-gray-700 mt-4">
           <img src="./img/rating.png" alt="rating" class="w-1/4 text-left mb-4">
@@ -212,7 +287,13 @@
       <section class="max-w-5xl block items-start md:flex md:justify-between md:gap-32 gap-16 p-8">
 
         <aside class="flex flex-col md:flex-row md:justify-between gap-8 md:gap-40">
-          <h3 class="text-xl text-white relative py-4">omnigpgt<span class="text-[#1FC77E] absolute -top-0">↗️</span></h3>
+          <div>
+            <div class="block md:flex items-start relative">
+              <h3 class="text-xl text-white">omnigpgt</h3>
+              <div><img src="./img/Vector (7).png" alt="arrow" class="absolute -right-4 top-[48%]"></div>
+            </div>
+          </div>
+          
           <article>
             <h4 class="text-white text-xs py-4">Lorem Ipsum</h4>
             <h4 class="text-white text-xs py-4">Lorem Ipsum</h4>
